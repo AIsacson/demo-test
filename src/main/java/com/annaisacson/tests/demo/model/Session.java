@@ -6,7 +6,7 @@ import javax.persistence.*;
 import java.util.List;
 
 @Entity(name="sessions")
-@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
+//@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 public class Session {
 
     //This says that session_id is a primary key
