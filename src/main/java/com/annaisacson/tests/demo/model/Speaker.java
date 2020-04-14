@@ -9,7 +9,7 @@ import java.util.List;
 
 // Annotates what column it's about
 @Entity(name="speakers")
-//@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
+@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 public class Speaker {
 
     @Id
